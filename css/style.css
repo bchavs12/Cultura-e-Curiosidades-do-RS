@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+
+    --primary-color: #CC6C36;
+    --background: rgb(60, 35, 19);
+    --second-color: #8CBB27;
+    --tittle-color: #ffffff;
+    --paragrafo-color: #EDEDED;
+    --bordaicone: #FF0000;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    /* A cada 1rem será considerado 10px */
+    font-size: 62.5%;
+}
+
+#header {
+    width: 100%;
+    height: 15.0rem;
+    background-color: rgb(60, 35, 19);
+    color: var(--tittle-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 10.0rem;
+    padding: 20px;
+}
+
+.logo1 {
+    height: 5.0rem;
+}
+
+.header__tittle {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+
+
+    color: yellowgreen;
+}
+
+#container-links {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#container-links .links .a {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+#links {
+    width: 100%;
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.ancora {
+    width: 12.0rem;
+    height: 5.2rem;
+
+    background-color: green;
+    border: 1px solid var(--bordaicone);
+    border-radius: 36px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a {
+    color: var(--tittle-color);
+    display: flex;
+
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+main {
+    background-color: rgb(60, 35, 19);
+}
+
+/* Banner Da Página */
+#banner {
+    max-width: 1280%;
+    height: 100vh;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+#banner {
+    background-image: url(../img/PaisagemPoa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    padding: 50px;
+
+    background-color: #140a0a80;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteudo h2 a {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.conteudo h2 a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+.banner_p1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 2.0rem;
+}
+
+.banner_p2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.destaq {
+    font-family: sans-serif;
+    color: yellowgreen;
+}
+
+/* Cards Curiosidades */
+#curiosidades {
+    width: 100%;
+    height: 100%;
+
+    border-top: solid 1px #8CBB27;
+    border-inline-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#curiosidades h2 {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    margin-top: 20px;
+
+    display: flex;
+}
+
+#curiosidades h2 a {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+#curiosidades h2 a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+#container__pai {
+    width: 100%;
+    height: 100%;
+}
+
+#container__cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.cards {
+    width: 100%;
+    height: 50.0rem;
+    background-color: rgb(94, 8, 8);
+    border: 2px solid red;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.card__img {
+    width: 100%;
+}
+
+#img__churras {
+    height: 18.353rem;
+}
+
+#serragaucha {
+    height: 18.353rem;
+}
+
+.card__img img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.iframe__card2 {
+    width: 35.0rem;
+    height: 18.353rem;
+    width: 100%;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card__titulo {
+    font-family: sans-serif;
+    color: yellowgreen;
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card__content {
+    padding: 10px;
+    display: flex;
+}
+
+.a__card {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.card__descricao {
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Seção Video: Semana Farroupilha */
+#container__video {
+    width: 100%;
+    height: 100%;
+
+    border-top: solid 1px #8CBB27;
+    border-inline-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container__video h2 {
+    font-family: sans-serif;
+    font-size: 4rem;
+    margin-top: 50px;
+    display: flex;
+}
+
+#container__video h2 a {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+#container__video h2 a:hover {
+    color: yellow;
+    transition: 0.8s;
+}
+
+#container__video p {
+    width: 80%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+
+#container__video p span {
+    font-family: sans-serif;
+
+    color: yellowgreen;
+}
+
+#container__video iframe {
+    width: 80%;
+    height: 50.0rem;
+    margin-bottom: 70px;
+
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 30.0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container__footer {
+    width: 100%;
+    height: 100%;
+    border-top: solid 1px #8CBB27;
+    border-inline-color: yellow;
+    background-color: rgb(60, 35, 19);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container__msocial {
+    width: 47.8rem;
+    height: 21.3rem;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midia__social {
+    width: 100%;
+}
+
+
+.midia__icon {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.midia__icon img {
+    width: 50%;
+}
+
+.saiba-mais {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffffff;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.saiba-mais:hover {
+    color: yellowgreen;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+#copy__footer {
+    width: 100%;
+    text-align: center;
+
+}
+
+#container__copy {
+    width: 100%;
+}
+
+.p_copy {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    background-color: #222222;
+}

@@ -1,0 +1,161 @@
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .card__descricao {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header__tittle {
+        display: none;
+    }
+
+    #links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo h2 {
+        font-size: 3rem;
+    }
+
+    .conteudo p {
+        font-size: 1.5rem;
+    }
+
+    #container__pai {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+    }
+
+    .card__titulo {
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    .card__descricao {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .ancora {
+        width: 9rem;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .ancora a {
+        font-size: 1rem;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    /* Card Curiosidades */
+    #container__pai {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+    }
+
+    .card__titulo {
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    .card__descricao {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    /* Header-NAV */
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container-links {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #links {
+        height: 14.0rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ancora {
+        width: 7rem;
+    }
+
+    .ancora a {
+        font-size: 1rem;
+    }
+
+    /* Curiosidades */
+    #curiosidades h2 {
+        font-size: 2.2rem;
+        padding: 10px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    /* Video */
+
+    #container__video h2 {
+        font-size: 2.2rem;
+        padding: 10px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    /* footer */
+    #footer {
+        height: 50.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container__footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container__msocial {
+        width: 16.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
